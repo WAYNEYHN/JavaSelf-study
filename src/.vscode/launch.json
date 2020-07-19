@@ -1,0 +1,84 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MergeSortMain<src_c8047c6>",
+            "request": "launch",
+            "mainClass": "com.algorithm.MergeSortMain",
+            "projectName": "src_c8047c6"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-NodeListPra<src_c8047c6>",
+            "request": "launch",
+            "mainClass": "pratice.demo.NodeListPra",
+            "projectName": "src_c8047c6"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-stackPra<src_c8047c6>",
+            "request": "launch",
+            "mainClass": "pratice.demo.stackPra",
+            "projectName": "src_c8047c6"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ExtendLearn<src_c8047c6>",
+            "request": "launch",
+            "mainClass": "wayne.learn.ExtendsLearn.ExtendLearn",
+            "projectName": "src_c8047c6"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RecursivePredictiveAnalysis<src_c8047c6>",
+            "request": "launch",
+            "mainClass": "wayne.learn.LL_1.RecursivePredictiveAnalysis",
+            "projectName": "src_c8047c6"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-InvokeMain<src_c8047c6>",
+            "request": "launch",
+            "mainClass": "wayne.learn.MainMethod_and_SystemClass.InvokeMain",
+            "projectName": "src_c8047c6"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LearnSystem<src_c8047c6>",
+            "request": "launch",
+            "mainClass": "wayne.learn.MainMethod_and_SystemClass.LearnSystem",
+            "projectName": "src_c8047c6"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MainMethed<src_c8047c6>",
+            "request": "launch",
+            "mainClass": "wayne.learn.MainMethod_and_SystemClass.MainMethed",
+            "projectName": "src_c8047c6"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-hashcodeAndEqual<src_c8047c6>",
+            "request": "launch",
+            "mainClass": "wayne.learn.ObjectLearn.hashcodeAndEqual",
+            "projectName": "src_c8047c6"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-reg2nfa<src_c8047c6>",
+            "request": "launch",
+            "mainClass": "wayne.learn.reg2nfa.reg2nfa",
+            "projectName": "src_c8047c6"
+        }
+    ]
+}
