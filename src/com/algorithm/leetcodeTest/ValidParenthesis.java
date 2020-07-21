@@ -3,6 +3,9 @@ package com.algorithm.leetcodeTest;
 import java.util.HashSet;
 import java.util.Stack;
 
+/**
+ *进行左右括号的匹配，监测字符串中所有的括号都是成对的
+ */
 public class ValidParenthesis {
     public  boolean isvaild(String s){
         String LastParenthesis = ")}]";
