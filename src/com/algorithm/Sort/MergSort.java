@@ -1,31 +1,6 @@
 package com.algorithm.Sort;
-import pratice.demo.MergeSort;
 
-/**
- *
- * 归并排序
- */
-public class MergeSortMain {
-    public static void main(String[] args) {
-        int[] a = {26, 5, 98, 108, 28, 99, 100, 56, 34, 1};
-        printArray( a);
-//        MergeSort temp = new MergeSort();
-//        temp.MergeSort_1(a);
-        mergeSort(a);
-        printArray(a);
-
-    }
-
-    /**
-     * 输出数组
-     * @param temp 目标数组
-     */
-    public static void printArray( int temp[]) {
-        for (int i = 0; i < temp.length; i++)
-            System.out.print(temp[i] + " ");
-        System.out.println();
-    }
-
+public class MergSort {
     /**
      * 将数组的需要排序的范围传入
      * @param array
@@ -122,6 +97,3 @@ public class MergeSortMain {
         }
     }
 }
-
-
-
