@@ -97,7 +97,7 @@ put(Object key,Object value)//添加key和value
 
 ### Collection的继承关系
 
-- ### ![image-20200615102430573](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20200615102430573.png)
+- ### ![image-20200615102430573](https://gitee.com/WAYNEYHN/TyporaPict/raw/master/img/image-20200615102430573.png)
 
 
 

@@ -1,5 +1,10 @@
 package pratice.demo.exception;
 
+
+/**
+ * 异常的使用流程try{} catch(){}finally{}
+ * finally里的代码是一定会执行的，即使在try或者catch中return也会执行
+ */
 public class TestExcetion {
     public static void main(String[] args) throws ClassNotFoundException, NoSuchFieldException {
         try{

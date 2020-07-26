@@ -10,7 +10,8 @@ public class SortMain {
         int[] a = {26, 5, 98, 108, 28, 99, 100, 56, 34, 1};
         printArray(a);
 //        MergSort.mergeSort(a);
-        BubbleSort.bubbleSort(a);
+//        BubbleSort.bubbleSort(a);
+//        InsertionSort.insertionSort(a);
         printArray(a);
 
     }
