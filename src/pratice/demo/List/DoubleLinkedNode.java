@@ -3,7 +3,7 @@ package pratice.demo.List;
 public class DoubleLinkedNode extends Node {
     private DoubleLinkedNode preNode;
     private DoubleLinkedNode nextNode;
-    public DoubleLinkedNode(Object nodeValue){
+    DoubleLinkedNode(Object nodeValue){
         super(nodeValue);
         this.preNode = null;
     }
