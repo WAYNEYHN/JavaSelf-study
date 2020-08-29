@@ -4,12 +4,17 @@ import com.algorithm.QafterClass.ResizingArrayStack;
 import com.algorithm.QafterClass.Stack;
 import com.algorithm.leetcodeTest.*;
 import com.algorithm.leetcodeTest.*;
+
+import java.util.Arrays;
+
 public class testMain {
     public static void main(String[] args) {
 
 
 
-
+        int[] a = {1, 2,4, 5, 6};
+        int[] b = Arrays.copyOfRange(a, 1, a.length);
+        System.out.println(b.length);
 
 //        System.out.println(PalindromeParis.palindromePairs(temp));
 //        System.out.println(IsPalindrome.isPalindrome(121));
