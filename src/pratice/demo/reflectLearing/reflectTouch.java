@@ -11,7 +11,7 @@ import java.lang.reflect.Method;
 public class reflectTouch {
     public static void main(String[] args) throws IllegalAccessException, InstantiationException, NoSuchMethodException, InvocationTargetException, NoSuchFieldException {
 
-        //第一步，获取类
+        //第一步，获取要获取的类
         Class<?> c = A.class;
         Object object = c.newInstance();
         if (object instanceof A) {

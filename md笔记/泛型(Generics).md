@@ -1,4 +1,4 @@
-# 泛型(Generics)
+#  泛型(Generics)
 
 ### 1、为什么需要泛型
 

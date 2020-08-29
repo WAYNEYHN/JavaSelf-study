@@ -10,7 +10,7 @@ public class HashSetUse {
         HashSet hashSet = new HashSet();
         addElementsToCollecion(hashSet);
         printCollecionElement(hashSet);
-        String  a = null;
+        String a = null;
 
     }
 

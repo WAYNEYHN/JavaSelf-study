@@ -35,6 +35,19 @@ public class Stack<Item> implements Iterable<Item> {
         N++;
     }
 
+
+    public void deleteLast(){
+        if(firstNode.nextNode == null){
+            firstNode = null;
+        }
+        Node temp = firstNode;
+        Node temp_1 = firstNode;
+        while(temp.nextNode != null){
+            temp_1 = temp;
+            temp = temp.nextNode;
+        }
+        temp_1.nextNode = null;
+    }
     public int size(){
         return N;
     }
